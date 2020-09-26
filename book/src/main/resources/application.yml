@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  # ˝æ›‘¥
+  datasource:
+    url: jdbc:mysql://localhost:3306/tiangao-book?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#mybatis≈‰÷√
+mybatis:
+  typeAliasesPackage: com.tiangao.book.pojo
+#  mapperLocations: classpath:mapper/*.xml
+
+
